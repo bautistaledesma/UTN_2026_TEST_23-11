@@ -17,3 +17,7 @@ Para saber a que direccion remota esta conectado nuestro repo
     git remote -v
 para subir el ultimo commit a la nube, lo hacemos mediante este comando (repositorio remoto  )
     git push -u origin main
+SI queremos actualizar/sincronizar nuestro repositorio local con el remoto debemos ejecutar
+    git add .
+    git commit -m 'comentario'
+    git push 
